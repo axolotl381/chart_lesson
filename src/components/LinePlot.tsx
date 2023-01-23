@@ -1,6 +1,8 @@
 import React from "react";
 
 import { Line } from "react-chartjs-2";
+import { Chart as ChartJS, LineElement } from "chart.js";
+ChartJS.register(LineElement);
 
 const data = {
   labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
